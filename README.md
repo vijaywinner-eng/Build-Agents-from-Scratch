@@ -1,4 +1,4 @@
-# AI Agents
+# AI Agent
 
 A gentle, local-first introduction to AI agents.
 
