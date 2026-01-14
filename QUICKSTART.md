@@ -95,6 +95,4 @@ This is normal for CPU inference. Each response takes 10-30 seconds depending on
 
 - **Read philosophy.md** to understand the approach
 - **Work through ** one at a time
-- **Modify the agent** to experiment
-- **Check examples/** for complete code examples
 
