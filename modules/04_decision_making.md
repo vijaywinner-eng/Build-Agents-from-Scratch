@@ -168,17 +168,8 @@ Always validate that the decision is actually in your choices list. The model mi
 - Stronger instructions help (already in the code)
 - Consider rejecting responses with extra text
 
-## Exercises
-
-1. Create a decision with 5+ choices and test different inputs
-2. Try ambiguous inputs and see which choice the model picks
-3. Add a "none_of_the_above" choice and see when it's selected
-4. Compare decisions with temperature 0.0 vs 0.5
-
 ## What's Next?
 
 In [ 05](05_tools.md), we'll introduce **tools** - capabilities the agent can request to extend beyond text generation.
 
 ---
-
-**Key Takeaway:** Decisions = agency. Agents choose, not just respond. Constraining choices makes behavior predictable.
