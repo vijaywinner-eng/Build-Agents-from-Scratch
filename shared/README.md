@@ -1,6 +1,6 @@
 # Shared Code
 
-This folder contains small, boring helpers used by the agent.
+This folder contains small, used by the agent.
 
 ## Files
 
