@@ -199,4 +199,3 @@ In (08_planning.md), we'll add **planning** - the ability to break down complex 
 
 ---
 
-**Key Takeaway:** Memory = data storage, not thoughts. It's explicit, inspectable, and gives agents continuity across interactions.
