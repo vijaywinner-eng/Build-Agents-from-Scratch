@@ -219,7 +219,4 @@ This loop is intentionally simple. Complex reasoning can come later - first, est
 ## What's Next?
 
 In (07_memory.md), we'll add **memory** so the agent can remember information across multiple interactions, not just within a single loop.
-
 ---
-
-**Key Takeaway:** Agent = loop + state. That's it. The loop enables multi-step behavior, state enables continuity.
