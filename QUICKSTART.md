@@ -87,9 +87,3 @@ This is normal for CPU inference. Each response takes 10-30 seconds depending on
 - Your CPU speed
 - Model size
 - Response length
-
-## Next Steps
-
-- **Read philosophy.md** to understand the approach
-- **Work through ** one at a time
-
