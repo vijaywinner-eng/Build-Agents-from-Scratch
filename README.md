@@ -2,9 +2,7 @@
 
 A gentle, local-first introduction to AI agents.
 
-This repository teaches how AI agents actually work by building **one agent** step by step from a single local LLM call.
-
-**No frameworks. No cloud APIs. No hidden reasoning. No magic.**
+How AI agents actually work by building **one agent** step by step from a single local LLM call.
 
 > Prefer JavaScript? A JavaScript / Node.js version of these ideas, structured differently, is available at [github.com/pguso/ai-agents-from-scratch](https://github.com/pguso/ai-agents-from-scratch).
 
