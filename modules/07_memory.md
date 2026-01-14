@@ -185,17 +185,5 @@ Memories are loaded into the prompt context. The model doesn't have direct acces
 - This simple system stores all memories forever
 - Consider adding memory limits or deletion
 - More sophisticated systems can prioritize or summarize memories
-
-## Exercises
-
-1. Save multiple facts and see how they accumulate
-2. Try asking about something not in memory
-3. Manually inspect `agent.memory.get_all()` to see stored data
-4. Modify the memory format and see how it affects behavior
-
-## What's Next?
-
-In (08_planning.md), we'll add **planning** - the ability to break down complex goals into a sequence of steps.
-
 ---
 
