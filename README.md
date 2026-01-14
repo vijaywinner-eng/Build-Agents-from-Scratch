@@ -48,7 +48,7 @@ ai-agents-from-scratch/
 ### Key Files Explained
 
 **`agent/agent.py`** - The heart of the repository
-- Contains the `Agent` class that evolves across a ll 12 
+- Contains the `Agent` class that evolves across all 12 
 - Each adds new methods and capabilities to this same class
 - This is what you study and modify as you learn
 
