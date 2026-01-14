@@ -2,10 +2,10 @@
 Prompt templates for the agent.
 
 These functions build prompts that evolve across lessons:
-- Lesson 01: base_prompt (just text)
-- Lesson 02: system_prompt (add role)
-- Lesson 03: json_contract (add structure)
-- Lesson 04+: specialized prompts for decisions, tools, planning
+-  01: base_prompt (just text)
+-  02: system_prompt (add role)
+-  03: json_contract (add structure)
+- 04+: specialized prompts for decisions, tools, planning
 
 Prompts are first-class citizens in agent systems.
 """
