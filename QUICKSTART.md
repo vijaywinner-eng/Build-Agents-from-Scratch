@@ -31,10 +31,6 @@ You need a GGUF model file. Here's the easiest way:
 3. Place it in the `models/` directory
 4. Rename it to `llama-3-8b-instruct.gguf` (optional, for simplicity)
 
-**Alternative models:**
-- Mistral 7B: https://huggingface.co/bartowski/Mistral-7B-Instruct-v0.2-GGUF
-- Gemma 7B: https://huggingface.co/bartowski/gemma-7b-it-GGUF
-
 ## Step 3: Verify Setup
 
 ```bash
