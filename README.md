@@ -1,4 +1,4 @@
-# AI Agents from Scratch
+# AI Agents
 
 A gentle, local-first introduction to AI agents.
 
