@@ -185,7 +185,3 @@ Using the same structured JSON pattern from Lessons 03 and 04 makes tool calls r
 ## What's Next?
 
 In (06_agent_loop.md), we'll create the **agent loop** - putting decision making and tool calling together into a repeating cycle.
-
----
-
-**Key Takeaway:** Tool calling = expanding capabilities without retraining. Tools are interfaces you control, not abilities the agent has.
