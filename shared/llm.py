@@ -2,7 +2,7 @@
 LocalLLM - A simple wrapper around llama-cpp-python.
 
 This class provides a minimal interface to interact with local language models.
-It intentionally has no magic:
+It intentionally:
 - No retries (added in lesson 03)
 - No tool calling (added in lesson 05)
 - No memory (added in lesson 07)
