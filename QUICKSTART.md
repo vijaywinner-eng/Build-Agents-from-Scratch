@@ -53,18 +53,18 @@ This checks:
 python complete_example.py
 ```
 
-This will run examples from all 10 lessons. You can also open `complete_example.py` and modify the model path or comment out lessons you want to skip.
+This will run examples from all 10. You can also open `complete_example.py` and modify the model path or comment out you want to skip.
 
 ## Step 6: Start Learning
 
-Now read the lessons in order:
+Now read the in order:
 
-1. `lessons/01_basic_llm_chat.md` - Understanding the basics
-2. `lessons/02_system_prompt.md` - Adding behavior
-3. `lessons/03_structured_output.md` - Making it reliable
-4. ... and so on through lesson 10
+1. `/01_basic_llm_chat.md` - Understanding the basics
+2. `/02_system_prompt.md` - Adding behavior
+3. `/03_structured_output.md` - Making it reliable
+4. ... and so on through 10
 
-Each lesson builds on the previous one.
+Each builds on the previous one.
 
 ## Troubleshooting
 
