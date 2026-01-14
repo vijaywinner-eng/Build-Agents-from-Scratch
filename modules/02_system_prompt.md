@@ -180,6 +180,3 @@ You keep responses under 100 words unless asked to elaborate.
 
 In (03_structured_output.md), we'll add **structured outputs** to make responses reliable and parseable. Instead of free text, we'll get validated JSON.
 
----
-
-**Key Takeaway:** Behavior is not intelligence. It's constraints. System prompts turn a general model into a specific assistant.
