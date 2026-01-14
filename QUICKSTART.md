@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-Get up and running with AI Agents from Scratch in 10 minutes.
+Get up and running with AI Agents from Scratch.
 
 ## Prerequisites
 
@@ -48,9 +48,6 @@ This checks:
 ```bash
 python complete_example.py
 ```
-
-This will run examples from all 10. You can also open `complete_example.py` and modify the model path or comment out you want to skip.
-
 ## Step 6: Start Learning
 
 Now read the in order:
