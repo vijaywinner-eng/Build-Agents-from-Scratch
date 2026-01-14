@@ -226,7 +226,3 @@ For now, execution is simple - just iterate through steps. Later will add more s
 ## What's Next?
 
 In (09_atomic_actions.md), we'll make execution safer by converting plan steps into **atomic actions** with validated schemas.
-
----
-
-**Key Takeaway:** Planning = data generation, not reasoning. Plans are inspectable data structures that enable multi-step execution.
