@@ -1,10 +1,10 @@
 """
-The Agent - This file grows across all 10 lessons.
+The Agent - This file grows across all 10
 
-This is the heart of the repository. Each lesson adds exactly one capability
+This is the heart of the repository. Each adds exactly one capability
 to this agent, building understanding progressively.
 
-Lesson progression:
+progression:
 01: Basic LLM chat
 02: System prompts (roles)
 03: Structured outputs (JSON)
@@ -29,10 +29,10 @@ from agent.planner import create_plan, create_atomic_action, create_aot_graph, e
 
 class Agent:
     """
-    An AI agent that grows in capability across lessons.
+    An AI agent that grows in capability across.
     
     This is the same agent throughout the repository - it just gains
-    new methods and capabilities as lessons progress.
+    new methods and capabilities as progress.
     """
     
     def __init__(self, model_path: str):
@@ -42,31 +42,31 @@ class Agent:
         Args:
             model_path: Path to the GGUF model file
         """
-        # Lesson 01: Basic LLM interaction
+        # 01: Basic LLM interaction
         self.llm = LocalLLM(model_path)
         
-        # Lesson 02: System prompt for consistent behavior
+        # 02: System prompt for consistent behavior
         self.system_prompt = (
             "You are a calm, precise, and helpful AI assistant. "
             "You explain concepts simply and avoid unnecessary jargon. "
             "You are honest about what you know and don't know."
         )
         
-        # Lesson 06: Agent state
+        # 06: Agent state
         self.state = AgentState()
         
-        # Lesson 07: Memory system
+        # 07: Memory system
         self.memory = Memory()
     
     # ============================================================
-    # LESSON 01: Basic LLM Chat
+    # 01: Basic LLM Chat
     # ============================================================
     
     def simple_generate(self, user_input: str) -> str:
         """
         Simplest possible interaction - just pass text to the LLM.
         
-        Lesson 01 version.
+        01 version.
         
         Args:
             user_input: The user's question or request
@@ -77,14 +77,14 @@ class Agent:
         return self.llm.generate(user_input)
     
     # ============================================================
-    # LESSON 02: System Prompts (Roles)
+    # 02: System Prompts (Roles)
     # ============================================================
     
     def generate_with_role(self, user_input: str) -> str:
         """
         Generate with a system prompt to shape behavior.
         
-        Lesson 02 version.
+        02 version.
         
         Args:
             user_input: The user's question or request
@@ -105,14 +105,14 @@ Assistant:"""
         return response.strip()
     
     # ============================================================
-    # LESSON 03: Structured Outputs
+    # 03: Structured Outputs
     # ============================================================
     
     def generate_structured(self, user_input: str, schema: str) -> dict | None:
         """
         Generate structured JSON output with validation and retries.
         
-        Lesson 03 version.
+        03 version.
         
         Args:
             user_input: The user's question or request
@@ -146,14 +146,14 @@ Response (JSON only):"""
         return None
     
     # ============================================================
-    # LESSON 04: Decision Making
+    # 04: Decision Making
     # ============================================================
     
     def decide(self, user_input: str, choices: list[str]) -> str | None:
         """
         Make the model choose from a finite set of options.
         
-        Lesson 04 version.
+        04 version.
         
         Args:
             user_input: The input to make a decision about
@@ -195,7 +195,7 @@ Response (JSON only):"""
         return None
     
     # ============================================================
-    # LESSON 05: Tools
+    #  05: Tools
     # ============================================================
     
     def request_tool(self, user_input: str) -> dict | None:
@@ -251,7 +251,7 @@ Response (JSON only):"""
         return execute_tool(tool_call["tool"], tool_call["arguments"])
     
     # ============================================================
-    # LESSON 06: Agent Loop
+    # 06: Agent Loop
     # ============================================================
     
     def agent_step(self, user_input: str) -> dict | None:
@@ -329,7 +329,7 @@ Response (JSON only):"""
         return results
     
     # ============================================================
-    # LESSON 07: Memory
+    # 07: Memory
     # ============================================================
     
     def run_with_memory(self, user_input: str) -> dict | None:
@@ -391,7 +391,7 @@ Response (JSON only):"""
         return None
     
     # ============================================================
-    # LESSON 08: Planning
+    # 08: Planning
     # ============================================================
     
     def create_plan(self, goal: str) -> dict | None:
@@ -440,7 +440,7 @@ Response (JSON only):"""
         return results
     
     # ============================================================
-    # LESSON 09: Atomic Actions
+    # 09: Atomic Actions
     # ============================================================
     
     def create_atomic_action(self, step: str) -> dict | None:
@@ -464,14 +464,14 @@ Response (JSON only):"""
         return create_atomic_action(self.llm, step)
     
     # ============================================================
-    # LESSON 10: Atom of Thought (AoT)
+    #10: Atom of Thought (AoT)
     # ============================================================
     
     def create_aot_plan(self, goal: str) -> dict | None:
         """
         Generate an AoT execution graph.
         
-        Lesson 10 version.
+       10 version.
         
         Args:
             goal: The goal to achieve
@@ -498,15 +498,15 @@ Response (JSON only):"""
         return execute_graph(graph, execute_action)
     
     # ============================================================
-    # MAIN RUN METHOD (evolves across lessons)
+    # MAIN RUN METHOD (evolves across )
     # ============================================================
     
     def run(self, user_input: str) -> str:
         """
         Main entry point for the agent.
         
-        This method evolves across lessons to use different capabilities.
-        Currently, at: Lesson 07 (with memory)
+        This method evolves across  to use different capabilities.
+        Currently, at:  07 (with memory)
         
         Args:
             user_input: The user's question or request
