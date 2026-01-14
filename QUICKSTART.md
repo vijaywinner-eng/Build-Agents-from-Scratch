@@ -43,22 +43,6 @@ This checks:
 - Models directory
 - Repository structure
 
-## Step 4: Run Examples
-
-```bash
-python complete_example.py
-```
-## Step 6: Start Learning
-
-Now read the in order:
-
-1. `/01_basic_llm_chat.md` - Understanding the basics
-2. `/02_system_prompt.md` - Adding behavior
-3. `/03_structured_output.md` - Making it reliable
-4. ... and so on through 10
-
-Each builds on the previous one.
-
 ## Troubleshooting
 
 ### "Module 'llama_cpp' not found"
