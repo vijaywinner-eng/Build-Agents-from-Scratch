@@ -98,8 +98,3 @@ This is normal for CPU inference. Each response takes 10-30 seconds depending on
 - **Modify the agent** to experiment
 - **Check examples/** for complete code examples
 
-## Getting Help
-
-- Check existing [GitHub Issues](https://github.com/your-repo/issues)
-- Read the lesson markdown files carefully
-- Ask questions in [GitHub Discussions](https://github.com/your-repo/discussions)
