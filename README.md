@@ -18,8 +18,6 @@ In short:
 2. Download a GGUF model to the `models/` folder
 3. Run: `python complete_example.py`
 
-**Note:** The `complete_example.py` file contains executable code examples demonstrating all 12 lessons. You can use it as a reference to see how all the concepts fit together.
-
 ## Repository Structure
 
 ```
@@ -50,7 +48,6 @@ ai-agents-from-scratch/
 **`agent/agent.py`** - The heart of the repository
 - Contains the `Agent` class that evolves across all 12 
 - Each adds new methods and capabilities to this same class
-- This is what you study and modify as you learn
 
 **`complete_example.py`** - reference
 - Contains 12 separate functions, one for each 
@@ -84,7 +81,6 @@ ai-agents-from-scratch/
 2. **Explicit over implicit** - No hidden logic, no magic abstractions
 3. **Structure over prompting** - Reliability comes from constraints, not clever wording
 4. **Local-first** - No API keys, no rate limits, no cloud dependency
-5. **Educational, not production** - This teaches fundamentals, not best practices
 
 ## License
 MIT License - see LICENSE file
