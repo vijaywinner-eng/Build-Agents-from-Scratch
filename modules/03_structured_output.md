@@ -171,5 +171,3 @@ You're treating the LLM as a component in a system:
 In (04_decision_making.md), we add **decision making** - the model chooses actions, not just answers questions.
 
 ---
-
-**Key Takeaway:** Structured outputs + validation = reliable agents.
